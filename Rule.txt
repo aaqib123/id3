@@ -1,0 +1,12 @@
+if  outlook is sunny
+      if  Humidity is high
+        then PlayTennis is N
+      if  Humidity is normal
+        then PlayTennis is P
+if  outlook is overcast
+        then PlayTennis is P
+if  outlook is rain
+      if  Windy is false
+        then PlayTennis is P
+      if  Windy is true
+        then PlayTennis is N
